@@ -113,12 +113,12 @@ body{
     .container{
         background-color: transparent;
         height: 400px;
-        width: 300px;
+        width: 230px;
     }
 
     .top-bar input{
         display: flex;
-        width: 320px;
+        width: 230px;
         height: 78px;
         background: #ebfffc;
         border: none;
@@ -143,6 +143,28 @@ body{
     }
 
     .weather-img img{
-        width: 33%;
+        width: 38%;
+    }
+
+    .element img{
+        width: 40px;
+    }
+
+    .element{
+        gap: 8px;
+    }
+    
+    .data{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .text{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .icon{
+        margin-top: 10px;
     }
 }
